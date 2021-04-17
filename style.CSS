@@ -1,6 +1,5 @@
 Body {
     margin: 0;
-    padding-top: 700px;
     text-align: center;
     background-image: linear-gradient(180deg,lightgreen ,lightblue);
     align-content: center;
@@ -15,62 +14,38 @@ height:200px;
 }
 
 .Parallax-inner {
-    display: table-cell;
-    position: relative;
     text-align: center;
-    vertical-align: 0;
+    padding-top: 200px;
+    align-content: center;
 }
 
 .Lineheading {
     font-size: 50px;
     font-weight: 300;
-    line-height: 1.5;
     font-family: cursive;
     color: blue;
 }
 
-#Bio {
-    padding: inherit;
-    text-align: center;
-    font-size: 40px;
-    color: darkgreen;
-}
-
-#Welcome {
-    font-size: 60px;
-    color: dodgerblue;
-    z-index: 9;
-    position: absolute;
-    height: 10px;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    opacity: 0.83;
-    display: table;
-    width: 100%;
-    padding-top: 55px;
-}
-
 .menu li {
 display: inline;
-padding-bottom:1000px;
+padding-bottom:100px;
+width: 200px;
 }
 
 .menu{
-    width:2000px;
+    width:1000px;
+    
+}
+
+img{
+    text-align: center;
 }
 
 .links {
-    float: right;
+    float: left;
     width:400px;
-    padding-top: 5px;
-    padding-left: 9px;
-    padding-bottom: 9px;
     font-family: cursive;
     font-size: 20;
-
-
 }
 
 .Parabout{
@@ -99,7 +74,6 @@ hr{
 .FavoriteStars{
     font-size: 50px;
     font-weight: 300;
-    line-height: 1.5;
     font-family: cursive;
     color:forestgreen;   
 }
@@ -111,7 +85,6 @@ a{
 .Accomplishments{
     font-size: 50px;
     font-weight: 300;
-    line-height: 1.5;
     font-family: cursive;
     color:darkmagenta;      
 }
@@ -119,7 +92,6 @@ a{
 .Inspiration{
      font-size: 50px;
     font-weight: 300;
-    line-height: 1.5;
     font-family: cursive;
     color:firebrick;   
 }
@@ -127,7 +99,6 @@ a{
 .Contact{
     font-size: 50px;
     font-weight: 300;
-    line-height: 1.5;
     font-family: cursive;
     color:darkorange;
 }
