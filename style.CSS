@@ -1,0 +1,141 @@
+Body {
+    margin: 0;
+    padding-top: 700px;
+    text-align: center;
+    background-image: linear-gradient(180deg,lightgreen ,lightblue);
+    align-content: center;
+
+}
+
+.Picture {
+border-radius:50%;
+  width:200px;
+height:200px;
+    
+}
+
+.Parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: 0;
+}
+
+.Lineheading {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1.5;
+    font-family: cursive;
+    color: blue;
+}
+
+#Bio {
+    padding: inherit;
+    text-align: center;
+    font-size: 40px;
+    color: darkgreen;
+}
+
+#Welcome {
+    font-size: 60px;
+    color: dodgerblue;
+    z-index: 9;
+    position: absolute;
+    height: 10px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    display: table;
+    width: 100%;
+    padding-top: 55px;
+}
+
+.menu li {
+display: inline;
+padding-bottom:1000px;
+}
+
+.menu{
+    width:2000px;
+}
+
+.links {
+    float: right;
+    width:400px;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-bottom: 9px;
+    font-family: cursive;
+    font-size: 20;
+
+
+}
+
+.Parabout{
+    font-size:30px;
+}
+
+h1{
+    font-size:60px;
+}
+
+.Topic{
+    font-size:50px;
+}
+
+.About{
+    background-color: aquamarine;
+}
+
+hr{
+    text-align:center;
+    width:200px;
+    height:20px;
+    background: black;
+}
+
+.FavoriteStars{
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1.5;
+    font-family: cursive;
+    color:forestgreen;   
+}
+
+a{
+    font-size:30px;
+}
+
+.Accomplishments{
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1.5;
+    font-family: cursive;
+    color:darkmagenta;      
+}
+
+.Inspiration{
+     font-size: 50px;
+    font-weight: 300;
+    line-height: 1.5;
+    font-family: cursive;
+    color:firebrick;   
+}
+
+.Contact{
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1.5;
+    font-family: cursive;
+    color:darkorange;
+}
+
+h2{
+    font-size:40px;
+}
+
+.Cont{
+    font-size:20px;
+}
